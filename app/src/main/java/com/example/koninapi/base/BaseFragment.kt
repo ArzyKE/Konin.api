@@ -20,7 +20,6 @@ abstract class BaseFragment<ViewModel : BaseViewModel, Binding : ViewBinding>(
         setupListener()
         setupRequest()
         setupSubscribes()
-
     }
 
     protected open fun iniatalize() {

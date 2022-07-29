@@ -8,7 +8,6 @@ import com.example.koninapi.R
 import com.example.koninapi.loading.LoadingDialog
 import dagger.hilt.android.AndroidEntryPoint
 
-
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
