@@ -1,6 +1,7 @@
 package com.example.koninapi.data.remote
 
 import com.example.koninapi.data.remote.apiservices.CoinsApiServices
+import com.example.koninapi.data.remote.apiservices.GlobalApiServices
 import javax.inject.Inject
 
 class NetworkClient @Inject constructor(
@@ -11,5 +12,6 @@ class NetworkClient @Inject constructor(
     private val provideRetrofit = retrofitClient.provideRetrofit(okHttpClient.provideOkHttpClient())
 
     fun provideCoinsApiService() = provideRetrofit.create(CoinsApiServices::class.java)
+    fun provideGlobalApiService() = provideRetrofit.create(GlobalApiServices::class.java)
 }
 

@@ -15,4 +15,9 @@ object NetworkModule {
     @Provides
     fun provideCoinsApiService(netWorkClient: NetworkClient) =
         netWorkClient.provideCoinsApiService()
+
+    @Singleton
+    @Provides
+    fun provideGlobalApiService(netWorkClient: NetworkClient) =
+        netWorkClient.provideGlobalApiService()
 }

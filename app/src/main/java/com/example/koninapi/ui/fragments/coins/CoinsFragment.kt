@@ -1,8 +1,7 @@
 package com.example.koninapi.ui.fragments.coins
 
-import android.opengl.Visibility
 import android.util.Log
-import android.widget.ProgressBar
+import android.view.View
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import by.kirich1409.viewbindingdelegate.viewBinding
@@ -35,12 +34,14 @@ class CoinsFragment
     }
 
     private fun setupObserver() {
+        binding.miProgress.visibility = View.VISIBLE
         viewModel.fetchCoins().observe(viewLifecycleOwner) {
             when (it) {
                 is Either.Left -> {
                     Log.e("anime", it.value)
                 }
                 is Either.Right -> {
+                    binding.miProgress.visibility = View.GONE
                     Log.e("Kadyrov", it.value.toString())
                     coinsadapter.submitList(it.value)
                 }
