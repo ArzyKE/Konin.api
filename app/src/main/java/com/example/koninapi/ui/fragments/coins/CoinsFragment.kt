@@ -44,6 +44,7 @@ class CoinsFragment
                     binding.miProgress.visibility = View.GONE
                     Log.e("Kadyrov", it.value.toString())
                     coinsadapter.submitList(it.value)
+
                 }
             }
         }

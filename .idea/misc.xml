@@ -3,12 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/Koninapi/app/src/main/res/drawable/custom_progressbar.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Koninapi/app/src/main/res/drawable/ic_baseline_dashboard_24.xml" value="0.1" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Koninapi/app/src/main/res/layout/activity_main.xml" value="0.11481481481481481" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Koninapi/app/src/main/res/layout/fragment_coins.xml" value="0.14666666666666667" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/Koninapi/app/src/main/res/layout/fragment_global.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Koninapi/app/src/main/res/layout/fragment_global.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Koninapi/app/src/main/res/layout/fragment_people.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Koninapi/app/src/main/res/layout/fragment_tags.xml" value="0.1796875" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Koninapi/app/src/main/res/layout/global.xml" value="0.1796875" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Koninapi/app/src/main/res/layout/item_coins.xml" value="0.1" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Koninapi/app/src/main/res/layout/item_global.xml" value="0.1796875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Koninapi/app/src/main/res/layout/item_tags.xml" value="0.1796875" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Koninapi/app/src/main/res/layout/loading_item.xml" value="0.1" />
         <entry key="..\:/Users/user/AndroidStudioProjects/Koninapi/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.1796875" />
       </map>

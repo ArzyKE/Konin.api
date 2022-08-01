@@ -1,27 +1,27 @@
-package com.example.koninapi.ui.fragments.global
+package com.example.koninapi.ui.fragments.people
 
 import android.util.Log
 import androidx.fragment.app.viewModels
 import by.kirich1409.viewbindingdelegate.viewBinding
 import com.example.koninapi.R
 import com.example.koninapi.base.BaseFragment
-import com.example.koninapi.databinding.FragmentGlobalBinding
+import com.example.koninapi.databinding.FragmentPeopleBinding
 import com.example.koninapi.utils.Either
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class GlobalFragment
-    : BaseFragment<GlobalViewModel, FragmentGlobalBinding>(R.layout.fragment_global) {
+class PeopleFragment
+    : BaseFragment<PeopleViewModel, FragmentPeopleBinding>(R.layout.fragment_people) {
 
-    override val binding by viewBinding(FragmentGlobalBinding::bind)
-    override val viewModel: GlobalViewModel by viewModels()
+    override val binding by viewBinding(FragmentPeopleBinding::bind)
+    override val viewModel: PeopleViewModel by viewModels()
 
     override fun setupSubscribes() {
         setupObserves()
     }
 
     private fun setupObserves() {
-        viewModel.fetchGlobal().observe(viewLifecycleOwner) {
+        viewModel.fetchPeople(1).observe(viewLifecycleOwner) {
             when (it) {
                 is Either.Left -> {
                     Log.e("anime", it.value)
@@ -29,10 +29,12 @@ class GlobalFragment
                 is Either.Right -> {
                     Log.e("Arzymat", it.value.toString())
                     it.value.apply {
-                        binding.itemGlobal.text = volumeHAthDate
+                        binding.itemPeopleName.text = name
+                        binding.itemPeopleDescription.text = description
                     }
                 }
             }
         }
     }
 }
+

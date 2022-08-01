@@ -20,4 +20,14 @@ object NetworkModule {
     @Provides
     fun provideGlobalApiService(netWorkClient: NetworkClient) =
         netWorkClient.provideGlobalApiService()
+
+    @Singleton
+    @Provides
+    fun providePeopleApiService(netWorkClient: NetworkClient) =
+        netWorkClient.providePeopleApiService()
+
+    @Singleton
+    @Provides
+    fun provideTagsApiService(netWorkClient: NetworkClient) =
+        netWorkClient.provideTagsApiService()
 }

@@ -4,4 +4,8 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hello_erzhan">Hello Erzhan</string>
     <string name="loading">Loading!</string>
+    <string name="tags">tags</string>
+    <string name="people">people</string>
+    <string name="global">global</string>
+    <string name="coins">coins</string>
 </resources>

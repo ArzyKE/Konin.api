@@ -15,4 +15,14 @@
         android:name="com.example.koninapi.ui.fragments.global.GlobalFragment"
         android:label="fragment_global"
         tools:layout="@layout/fragment_global" />
+    <fragment
+        android:id="@+id/peopleFragment"
+        android:name="com.example.koninapi.ui.fragments.people.PeopleFragment"
+        android:label="PeopleFragment"
+        tools:layout="@layout/fragment_people" />
+    <fragment
+        android:id="@+id/tagsFragment"
+        android:name="com.example.koninapi.ui.fragments.tags.TagsFragment"
+        android:label="fragment_tags"
+        tools:layout="@layout/fragment_tags" />
 </navigation>
