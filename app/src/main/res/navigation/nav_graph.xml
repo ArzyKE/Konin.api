@@ -7,22 +7,22 @@
 
     <fragment
         android:id="@+id/coinsFragment"
-        android:name="com.example.koninapi.ui.fragments.coins.CoinsFragment"
+        android:name="com.example.koninapi.presentation.ui.fragments.coins.CoinsFragment"
         android:label="fragment_coins"
         tools:layout="@layout/fragment_coins" />
     <fragment
         android:id="@+id/globalFragment"
-        android:name="com.example.koninapi.ui.fragments.global.GlobalFragment"
+        android:name="com.example.koninapi.presentation.ui.fragments.global.GlobalFragment"
         android:label="fragment_global"
         tools:layout="@layout/fragment_global" />
     <fragment
         android:id="@+id/peopleFragment"
-        android:name="com.example.koninapi.ui.fragments.people.PeopleFragment"
+        android:name="com.example.koninapi.presentation.ui.fragments.people.PeopleFragment"
         android:label="PeopleFragment"
         tools:layout="@layout/fragment_people" />
     <fragment
         android:id="@+id/tagsFragment"
-        android:name="com.example.koninapi.ui.fragments.tags.TagsFragment"
+        android:name="com.example.koninapi.presentation.ui.fragments.tags.TagsFragment"
         android:label="fragment_tags"
         tools:layout="@layout/fragment_tags" />
 </navigation>
