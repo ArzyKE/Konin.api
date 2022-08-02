@@ -3,7 +3,7 @@ package com.example.koninapi.presentation.base
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.koninapi.domain.either.Either
+import com.example.domain.either.Either
 import com.example.koninapi.presentation.ui.state.UIState
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow

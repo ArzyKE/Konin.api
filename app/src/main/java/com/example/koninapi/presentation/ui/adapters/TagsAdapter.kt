@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.koninapi.databinding.ItemTagsBinding
-import com.example.koninapi.data.remote.dtos.TagsDto
+import com.example.data.remote.dtos.TagsDto
 
 class TagsAdapter : ListAdapter<TagsDto, TagsAdapter.ViewHolder>(diffCallback) {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {

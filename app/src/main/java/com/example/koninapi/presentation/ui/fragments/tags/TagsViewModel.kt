@@ -1,7 +1,7 @@
 package com.example.koninapi.presentation.ui.fragments.tags
 
 import com.example.koninapi.presentation.base.BaseViewModel
-import com.example.koninapi.data.repoisitories.TagsRepository
+import com.example.data.repoisitories.TagsRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 

@@ -1,6 +1,6 @@
 package com.example.koninapi.di
 
-import com.example.koninapi.data.remote.NetworkClient
+import com.example.data.remote.NetworkClient
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

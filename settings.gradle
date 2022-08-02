@@ -14,3 +14,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Konin.api"
 include ':app'
+include ':data'
+include ':domain'

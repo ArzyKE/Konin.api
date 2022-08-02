@@ -1,6 +1,6 @@
 package com.example.koninapi.presentation.ui.models
 
-import com.example.koninapi.domain.models.CoinModel
+import com.example.domain.models.CoinModel
 
 data class CoinModelUI(
     val id: String,
